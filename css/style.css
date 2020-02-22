@@ -1,0 +1,225 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Cabin;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ada7a7;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #47467C;
+}
+
+.my-section {
+  margin-top: 40px;
+  padding-bottom: 30px;
+  font-size: 45px;
+  font-family: Poppins;
+  font-weight: 600;
+  color: #47467C;
+}
+
+*::-moz-selection {
+  color: #f1f1f1;
+  background: #47467C;
+}
+
+*::selection {
+  color: #f1f1f1;
+  background: #47467C;
+}
+
+img::-moz-selection {
+  background: transparent;
+}
+
+img::selection {
+  background: transparent;
+}
+
+.active {
+  color: #47467C !important;
+}
+
+header {
+  min-height: 100vh;
+  background: url("../assets/images/background.png") no-repeat;
+  background-size: cover;
+}
+
+header nav .container .navbar-collapse .navbar-nav li {
+  padding-right: 15px;
+}
+
+header nav .container .navbar-collapse .navbar-nav li a {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+header nav .container .navbar-collapse .navbar-nav li a:hover {
+  color: #47467C !important;
+}
+
+header #intro {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header #intro .container .row .col-md-6 h1 {
+  font-size: 55px;
+  font-weight: 900;
+  margin-top: 10px;
+  color: #575757;
+}
+
+header #intro .container .row .col-md-6 p {
+  font-size: 18px;
+  color: #6d6d6d;
+  padding-bottom: 2px;
+  line-height: 160%;
+}
+
+header #intro .container .row .col-md-6 a {
+  padding: 8px 60px;
+  font-size: 20px;
+  border: 2px solid #47467C;
+  letter-spacing: 1.7px;
+  font-weight: 600;
+  background: #47467C;
+  -webkit-transition: .6s transform;
+  transition: .6s transform;
+  margin-bottom: 20px;
+}
+
+header #intro .container .row .col-md-6 a:hover {
+  background-color: transparent;
+  color: #000;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+header #intro .container .row .col-md-6 .embed-responsive-16by9 {
+  border-radius: 20px;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+  border: 2.5px solid #47467C;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+main .container .row .col-md-6 .carousel .carousel-inner .carousel-item img {
+  border-radius: 12px;
+  opacity: .7;
+  height: 50vh;
+}
+
+main .container .row .col-md-6 h1 {
+  margin-top: 15px;
+  font-size: 55px;
+  line-height: 1;
+}
+
+main .container .row .col-md-6 p {
+  font-size: 20px;
+  line-height: 2;
+}
+
+main #placetovisit .container .row .col-md-6 img {
+  border-radius: 12px;
+  height: 50vh;
+}
+
+main #placetovisit .container .row .col-md-6:last-child {
+  position: relative;
+}
+
+main #placetovisit .container .row .content-wrapper {
+  top: -10vmin;
+  padding: 20px 30px;
+  -webkit-box-shadow: 0px 15px 29px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 15px 29px rgba(0, 0, 0, 0.2);
+}
+
+main #placetovisit .container .row .content-wrapper h2 {
+  font-weight: 600;
+  font-size: 32px;
+  color: #47467C;
+}
+
+main #placetovisit .container .row .content-wrapper p {
+  font-size: 20px;
+}
+
+.card {
+  background-color: #47467C !important;
+  border: none;
+  border-radius: 0;
+  padding: 20px 25px;
+}
+
+.card .row .col-md-8 h1 {
+  line-height: 1.1;
+}
+
+.card .row .col-md-4 a {
+  padding: 8px 50px;
+  background-color: #00B4CB;
+  border: 2px solid #00B4CB;
+  font-weight: 700;
+  font-size: 20px;
+  -webkit-transition: .9s transform;
+  transition: .9s transform;
+  letter-spacing: 1.2px;
+}
+
+.card .row .col-md-4 a:hover {
+  background-color: transparent;
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+}
+
+#gallary .container .row .col-md-4 img {
+  height: 30vh;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 10px;
+  -webkit-transition: .3s transform;
+  transition: .3s transform;
+  z-index: 55;
+}
+
+#gallary .container .row .col-md-4 img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  z-index: 99999999;
+  opacity: .92;
+}
+/*# sourceMappingURL=style.css.map */
